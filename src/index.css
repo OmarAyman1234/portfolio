@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .nav-link {
+    @apply relative py-1 text-gray-300 sm:ml-6;
+  }
+  .nav-link:hover,
+  .nav-link.active {
+    @apply text-white;
+  }
+  .nav-link::after {
+    @apply absolute bottom-0 left-0 h-1 w-0 bg-blue-500 duration-150 content-[''] sm:-bottom-1;
+  }
+  .nav-link:hover::after,
+  .nav-link.active::after {
+    @apply w-full;
+  }
+}
+body {
+  @apply mt-20 bg-white sm:text-xl xl:text-2xl;
+}
