@@ -80,7 +80,7 @@ export const projects = {
     },
     {
       previewImg: "/src/assets/images/health-club-preview.png",
-      name: "Health Club Management System",
+      name: "Health Club System",
       description:
         "A Gym system built using Java, I worked on the text files structure, notification system, billing system, and some functions in the FileHandler.java file",
       includedSkills: [
@@ -101,5 +101,5 @@ export const projects = {
   //   includedSkills: [{name: "", img: ""}],
   //   sourceCode: "",
   //   liveDemo: "",
-  // },
+  // }
 };
