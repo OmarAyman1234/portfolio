@@ -2,6 +2,7 @@ import About from "./Components/About";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import { createContext, useRef } from "react";
+import Skills from "./Components/Skills";
 
 export const ScrollContext = createContext({});
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Header />
         <Hero />
         <About />
+        <Skills />
       </ScrollContext.Provider>
     </>
   );
