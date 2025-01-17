@@ -7,8 +7,8 @@ export const skills = {
     },
     {
       name: "CSS",
-      img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
-      borderColor: "#1572b6",
+      img: "/src/assets/icons/Official_CSS_Logo.svg",
+      borderColor: "#663399",
     },
     {
       name: "JavaScript",
