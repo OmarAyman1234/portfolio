@@ -1,6 +1,7 @@
 import About from "./Components/About";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Projects from "./Components/Projects";
 import { createContext, useRef } from "react";
 import Skills from "./Components/Skills";
 
@@ -24,6 +25,7 @@ function App() {
         <Hero />
         <About />
         <Skills />
+        <Projects />
       </ScrollContext.Provider>
     </>
   );
