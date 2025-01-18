@@ -22,9 +22,9 @@
     @apply mt-28 flex scroll-mt-28 flex-col items-center;
   }
   .section-title {
-    @apply mb-5 border-b-4 border-r-4 border-acc1 px-3 text-center text-2xl font-extrabold sm:text-3xl;
+    @apply mb-5 border-b-4 border-r-4 border-acc1 px-3 text-center text-2xl font-extrabold text-gray-800 sm:text-3xl;
   }
 }
 body {
-  @apply mt-20 bg-gray-200 sm:text-xl xl:text-2xl;
+  @apply mt-20 bg-gray-200 pb-[2000px] sm:text-xl xl:text-2xl;
 }

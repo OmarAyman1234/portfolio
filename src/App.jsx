@@ -1,9 +1,12 @@
+import { createContext, useRef } from "react";
+
 import About from "./Components/About";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Projects from "./Components/Projects";
-import { createContext, useRef } from "react";
 import Skills from "./Components/Skills";
+import Contact from "./Components/Contact";
+import { Toaster } from "react-hot-toast";
 
 export const ScrollContext = createContext({});
 function App() {
@@ -26,7 +29,14 @@ function App() {
         <About />
         <Skills />
         <Projects />
+        <Contact />
       </ScrollContext.Provider>
+      <Toaster
+        toastOptions={{
+          error: { duration: 2000, style: { backgroundColor: "#e5e7eb" } },
+          success: { duration: 3000, style: { backgroundColor: "#e5e7eb" } },
+        }}
+      />
     </>
   );
 }
