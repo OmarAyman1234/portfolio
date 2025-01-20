@@ -24,6 +24,9 @@
   .section-title {
     @apply mb-5 border-b-4 border-r-4 border-acc1 px-3 text-center text-2xl font-extrabold text-gray-800 sm:text-3xl;
   }
+  .section-h2 {
+    @apply mb-2 border-b-4 border-acc1 pb-[2px] text-center text-xl font-bold sm:text-2xl;
+  }
 }
 body {
   @apply mt-20 bg-gray-200 pb-[2000px] sm:text-xl xl:text-2xl;

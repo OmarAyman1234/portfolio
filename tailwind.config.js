@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      screens: {
+        xsm: "480px",
+      },
       colors: {
         //primary color
         primary: "#f3f4f6",
@@ -12,6 +15,12 @@ export default {
         acc2: "#2a52be",
 
         secondary: "#98FB98",
+
+        gmailBlue: "#4285f4",
+        gmailRed2: "#c5221f",
+        gmailRed1: "#ea4335",
+        gmailGold: "#fbbc04",
+        gmailGreen: "#34a853",
       },
 
       keyframes: {
