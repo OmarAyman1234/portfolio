@@ -9,13 +9,7 @@ function Header() {
   const [dropDown, setDropDown] = useState(false); //modify display
   const { aboutRef, skillsRef, projectsRef, contactRef } =
     useContext(ScrollContext);
-  useEffect(() => {
-    const observer = new IntersectionObserver((entries) => {
-      const entry = entries[0];
-      entry.isIntersecting ? setActiveLink("about") : setActiveLink("");
-    });
-    observer.observe(aboutRef.current);
-  }, []);
+  useEffect(() => {}, []);
 
   const handleNavIconClick = (section) => {
     setActiveLink(section);
@@ -38,7 +32,7 @@ function Header() {
   return (
     <header className="fixed left-0 right-0 top-0 z-50 flex flex-col bg-gray-900 sm:flex-row sm:items-center sm:justify-between">
       <div className="flex h-20 items-center justify-between px-6 sm:px-10">
-        <p className="text-center text-xl font-extrabold text-primary xl:text-2xl">
+        <p className="text-center text-2xl font-extrabold text-primary xl:text-3xl">
           Omar Ayman
         </p>
         <button
@@ -66,6 +60,10 @@ function Header() {
         <button
           className={`nav-link ${activeLink === "skills" ? "active text-white" : ""}`}
           onClick={() => {
+            skillsRef.current?.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
             handleNavIconClick("skills");
           }}
         >
@@ -74,6 +72,10 @@ function Header() {
         <button
           className={`nav-link ${activeLink === "projects" ? "active text-white" : ""}`}
           onClick={() => {
+            projectsRef.current?.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
             handleNavIconClick("projects");
           }}
         >
@@ -82,6 +84,10 @@ function Header() {
         <button
           className={`nav-link ${activeLink === "contact" ? "active text-white" : ""}`}
           onClick={() => {
+            contactRef.current?.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
             handleNavIconClick("contact");
           }}
         >

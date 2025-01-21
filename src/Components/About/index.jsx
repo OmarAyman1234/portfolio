@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { ScrollContext } from "../../App";
 function About() {
-  const { aboutRef } = useContext(ScrollContext);
+  const { aboutRef, projectsRef } = useContext(ScrollContext);
   return (
     <section ref={aboutRef} className="section-container">
       <h1 className="section-title">ABOUT ME</h1>
@@ -23,7 +23,12 @@ function About() {
           After that, I started building and collaborating in other projects as
           you will see in the{" "}
           <span
-            onClick={() => {}}
+            onClick={() => {
+              projectsRef.current?.scrollIntoView({
+                behavior: "smooth",
+                block: "start",
+              });
+            }}
             className="cursor-pointer text-acc1 underline"
           >
             projects
