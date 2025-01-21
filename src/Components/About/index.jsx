@@ -29,7 +29,7 @@ function About() {
                 block: "start",
               });
             }}
-            className="cursor-pointer text-acc1 underline"
+            className="cursor-pointer text-acc1 underline duration-150 hover:text-acc2"
           >
             projects
           </span>{" "}
