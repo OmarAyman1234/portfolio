@@ -45,7 +45,7 @@ function FormMessage() {
       <form
         onSubmit={handleSubmit}
         ref={formRef}
-        className="mb-4 flex w-10/12 flex-col justify-between rounded-md border-2 border-gray-300 bg-gray-100 px-2 py-2 shadow-lg hover:shadow-xl md:w-8/12 lg:w-7/12"
+        className="mb-4 flex w-10/12 flex-col justify-between rounded-md border-2 border-gray-300 bg-gray-100 px-2 py-2 shadow-md hover:shadow-lg md:w-8/12 lg:w-7/12"
       >
         <h2 className="my-2 text-center text-xl font-bold text-gray-800">
           Let’s Connect!
@@ -70,7 +70,7 @@ function FormMessage() {
               name="Name"
               placeholder="Your name"
               required
-              className="my-3 w-11/12 rounded-md border-2 border-gray-300 py-1 pl-1 text-left duration-150 hover:border-acc1 focus:outline-acc2"
+              className="my-3 w-11/12 rounded-md border-2 border-gray-300 py-1 pl-1 text-left duration-200 hover:border-acc1 focus:outline-acc2"
             />
             <input
               value={formData.email}
@@ -81,7 +81,7 @@ function FormMessage() {
               name="Email"
               placeholder="Your email"
               required
-              className="my-3 w-11/12 rounded-md border-2 border-gray-300 py-1 pl-1 text-left duration-150 hover:border-acc1 focus:outline-acc2"
+              className="my-3 w-11/12 rounded-md border-2 border-gray-300 py-1 pl-1 text-left duration-200 hover:border-acc1 focus:outline-acc2"
             />
             <textarea
               value={formData.message}
@@ -93,7 +93,7 @@ function FormMessage() {
               name="Message"
               placeholder="Message"
               required
-              className="my-3 w-11/12 rounded-md border-2 border-gray-300 py-1 pl-1 text-left duration-150 hover:border-acc1 focus:outline-acc2"
+              className="my-3 w-11/12 rounded-md border-2 border-gray-300 py-1 pl-1 text-left duration-200 hover:border-acc1 focus:outline-acc2"
             />
             <button
               type="submit"
