@@ -1,6 +1,7 @@
 import { useState, useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleNotch } from "@fortawesome/free-solid-svg-icons";
+import toast from "react-hot-toast";
 function FormMessage() {
   const [formData, setFormData] = useState({
     name: "",
@@ -16,7 +17,7 @@ function FormMessage() {
     e.preventDefault(); //prevent the default behavior of the form which is reloading the page
     setIsSubmitting(true); // Show loading state
     const scriptURL =
-      "https://script.google.com/macros/s/AKfycbxLKmn_q68GhTUu90dwVxCTKXwo7g_CCiooc-qQD6qnJtH-iL-J-8YiEXgZNlkhJpJK/exec"; // Add your script URL here
+      "https://script.google.com/macros/s/AKfycbxLKmn_q68GhTUu90dwVxCTKXwo7g_CCiooc-qQD6qnJtH-iL-J-8YiEXgZNlkhJpJK/exec";
 
     try {
       //Post the data to Google Sheets file
