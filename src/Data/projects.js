@@ -35,13 +35,13 @@ export const projects = {
         },
       ],
       sourceCode: "https://github.com/OmarAyman1234/portfolio",
-      liveDemo: "https://omarayman1234.github.io/portfolio/",
+      liveDemo: "",
     },
     {
       previewImg: "/src/assets/images/maktabaHub-preview.png",
       name: "Maktaba Hub",
       description:
-        "An islamic library for borrowing and reserving books, I made the data file, and worked on rendering book details and borrow/reserve pages using the data file and search params.",
+        "An Islamic library for borrowing and reserving books, I made the data file, and worked on rendering book details and borrow/reserve pages using the data file and search params.",
       includedSkills: [
         {
           name: "HTML",

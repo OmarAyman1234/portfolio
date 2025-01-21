@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareEnvelope } from "@fortawesome/free-solid-svg-icons";
-import DefaultMailPlatform from "../../utils/DefaultMailPlatform";
-import GmailIcon from "../../utils/GmailIcon";
+import DefaultMailPlatform from "./DefaultMailPlatform";
+import GmailIcon from "./GmailIcon";
 
 function OtherContactMethods() {
   const [isEmailClicked, setIsEmailClicked] = useState(false);
