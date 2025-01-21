@@ -1,15 +1,10 @@
 import { useContext } from "react";
 import { ScrollContext } from "../../App";
 function About() {
-  const { aboutRef } = useContext(ScrollContext);
+  const { aboutRef, projectsRef } = useContext(ScrollContext);
   return (
-    <section
-      ref={aboutRef}
-      className="mt-28 flex scroll-mt-28 flex-col items-center"
-    >
-      <h1 className="mb-5 border-b-4 border-r-4 border-acc1 px-3 text-center text-2xl font-extrabold">
-        ABOUT ME
-      </h1>
+    <section ref={aboutRef} className="section-container">
+      <h1 className="section-title">ABOUT ME</h1>
       <div className="w-3/4">
         <p className="mb-5 text-left font-semibold">
           I am a web developer with <span>1 year</span> of experience in
@@ -28,7 +23,12 @@ function About() {
           After that, I started building and collaborating in other projects as
           you will see in the{" "}
           <span
-            onClick={() => {}}
+            onClick={() => {
+              projectsRef.current?.scrollIntoView({
+                behavior: "smooth",
+                block: "start",
+              });
+            }}
             className="cursor-pointer text-acc1 underline"
           >
             projects
