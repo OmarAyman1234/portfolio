@@ -29,5 +29,5 @@
   }
 }
 body {
-  @apply mt-20 bg-gray-200 pb-[2000px] sm:text-xl xl:text-2xl;
+  @apply mt-20 bg-gray-200 sm:text-xl xl:text-2xl;
 }

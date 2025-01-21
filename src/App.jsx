@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 import Projects from "./Components/Projects";
 import Skills from "./Components/Skills";
 import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 import { Toaster } from "react-hot-toast";
 
 export const ScrollContext = createContext({});
@@ -31,6 +32,7 @@ function App() {
         <Projects />
         <Contact />
       </ScrollContext.Provider>
+      <Footer />
       <Toaster
         toastOptions={{
           error: { duration: 2000, style: { backgroundColor: "#e5e7eb" } },
