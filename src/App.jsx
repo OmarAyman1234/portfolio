@@ -1,8 +1,8 @@
 import { createContext, useRef } from "react";
 
 import About from "./Components/About";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
+import Header from "./Components/Header";
+import Hero from "./Components/Hero";
 import Projects from "./Components/Projects";
 import Skills from "./Components/Skills";
 import Contact from "./Components/Contact";
