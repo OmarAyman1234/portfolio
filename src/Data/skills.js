@@ -7,7 +7,7 @@ export const skills = {
     },
     {
       name: "CSS",
-      img: "/src/assets/icons/Official_CSS_Logo.svg",
+      img: "/assets/icons/Official_CSS_Logo.svg",
       borderColor: "#663399",
     },
     {

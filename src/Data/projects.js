@@ -1,7 +1,7 @@
 export const projects = {
   Featured: [
     {
-      previewImg: "/src/assets/images/shopme-preview.png",
+      previewImg: "/assets/images/shopme-preview.png",
       name: "SHOPME",
       description:
         "An ecommerce website fully developed by me that has lots of features including but not limited to adding products to favorites, cart, and viewing orders history, all data is saved to the local storage.",
@@ -10,7 +10,7 @@ export const projects = {
           name: "HTML",
           img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
         },
-        { name: "CSS", img: "/src/assets/icons/Official_CSS_Logo.svg" },
+        { name: "CSS", img: "/assets/icons/Official_CSS_Logo.svg" },
         {
           name: "JavaScript",
           img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
@@ -20,7 +20,7 @@ export const projects = {
       liveDemo: "https://omarayman1234.github.io/SHOPME/",
     },
     {
-      previewImg: "/src/assets/images/portfolio-preview.png",
+      previewImg: "/assets/images/portfolio-preview.png",
       name: "Portfolio",
       description:
         "My portfolio website that you are currently viewing, there is no need for a description 😄.",
@@ -38,7 +38,7 @@ export const projects = {
       liveDemo: "",
     },
     {
-      previewImg: "/src/assets/images/maktabaHub-preview.png",
+      previewImg: "/assets/images/maktabaHub-preview.png",
       name: "Maktaba Hub",
       description:
         "An Islamic library for borrowing and reserving books, I made the data file, and worked on rendering book details and borrow/reserve pages using the data file and search params.",
@@ -47,7 +47,7 @@ export const projects = {
           name: "HTML",
           img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
         },
-        { name: "CSS", img: "/src/assets/icons/Official_CSS_Logo.svg" },
+        { name: "CSS", img: "/assets/icons/Official_CSS_Logo.svg" },
         {
           name: "JavaScript",
           img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
@@ -60,7 +60,7 @@ export const projects = {
 
   Other: [
     {
-      previewImg: "/src/assets/images/cairoPhones-preview.png",
+      previewImg: "/assets/images/cairoPhones-preview.png",
       name: "Cairo Phones",
       description:
         "My first project, I worked on the Samsung page, and supervised the whole project.",
@@ -69,7 +69,7 @@ export const projects = {
           name: "HTML",
           img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
         },
-        { name: "CSS", img: "/src/assets/icons/Official_CSS_Logo.svg" },
+        { name: "CSS", img: "/assets/icons/Official_CSS_Logo.svg" },
         {
           name: "JavaScript",
           img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
@@ -79,7 +79,7 @@ export const projects = {
       liveDemo: "https://omarayman1234.github.io/CairoPhones.github.io/",
     },
     {
-      previewImg: "/src/assets/images/health-club-preview.png",
+      previewImg: "/assets/images/health-club-preview.png",
       name: "Health Club System",
       description:
         "A Gym system built using Java, I worked on the text files structure, notification system, billing system, and some functions in the FileHandler.java file",
