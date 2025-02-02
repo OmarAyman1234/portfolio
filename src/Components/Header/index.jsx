@@ -63,7 +63,15 @@ function Header() {
   return (
     <header className="fixed left-0 right-0 top-0 z-50 flex flex-col bg-gray-900 sm:flex-row sm:items-center sm:justify-between">
       <div className="flex h-20 items-center justify-between px-6 sm:px-10">
-        <p className="text-center text-2xl font-extrabold text-primary xl:text-3xl">
+        <p
+          onClick={() => {
+            window.scrollTo({
+              top: 0,
+              behavior: "smooth",
+            });
+          }}
+          className="cursor-pointer text-center text-2xl font-extrabold text-primary xl:text-3xl"
+        >
           Omar Ayman
         </p>
         <button

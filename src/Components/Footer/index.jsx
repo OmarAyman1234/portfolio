@@ -2,7 +2,7 @@ import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Footer() {
   return (
-    <div className="mt-20 flex items-center justify-center bg-gray-900 p-5 text-primary">
+    <div className="mt-20 flex items-center justify-center bg-gray-900 p-5 text-gray-200">
       <p className="text-xl font-semibold sm:text-2xl">
         <span className="text-sm font-normal sm:text-base">
           &copy; {new Date().getFullYear()}
