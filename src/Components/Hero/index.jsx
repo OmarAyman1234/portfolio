@@ -1,8 +1,5 @@
 import { useContext } from "react";
 import { ScrollContext } from "../../App";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSpinner } from "@fortawesome/free-solid-svg-icons";
-import toast from "react-hot-toast";
 function Hero() {
   const { aboutRef } = useContext(ScrollContext);
   return (
@@ -15,30 +12,17 @@ function Hero() {
           A passionate web developer.
         </p>
       </div>
-      <div className="flex flex-col gap-3 md:flex-row">
-        <button
-          onClick={() => {
-            aboutRef.current?.scrollIntoView({
-              behavior: "smooth",
-              block: "start",
-            });
-          }}
-          className="w-60 rounded-lg border-2 border-white py-3 font-mono text-lg font-bold duration-150 hover:bg-primary hover:text-acc1 lg:text-xl"
-        >
-          Explore
-        </button>
-        <button
-          onClick={() => {
-            toast("CV is arriving soon ...", {
-              icon: "📋",
-              duration: 2500,
-            });
-          }}
-          className="w-60 rounded-lg border-2 border-white py-3 font-mono text-lg font-bold duration-150 hover:bg-primary hover:text-acc1 lg:text-xl"
-        >
-          CV <FontAwesomeIcon className="animate-spin" icon={faSpinner} />
-        </button>
-      </div>
+      <button
+        onClick={() => {
+          aboutRef.current?.scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+          });
+        }}
+        className="rounded-lg border-2 border-white px-20 py-3 font-mono text-lg font-bold duration-150 hover:bg-primary hover:text-acc1 lg:text-xl"
+      >
+        Explore
+      </button>
     </section>
   );
 }

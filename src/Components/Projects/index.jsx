@@ -6,7 +6,7 @@ import { ScrollContext } from "../../App";
 function Projects() {
   const { projectsRef } = useContext(ScrollContext);
   return (
-    <section id="projects" ref={projectsRef} className="section-container">
+    <section ref={projectsRef} className="section-container">
       <h1 className="section-title">MY PROJECTS</h1>
 
       {Object.entries(projects).map(

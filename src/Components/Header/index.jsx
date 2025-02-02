@@ -9,38 +9,7 @@ function Header() {
   const [dropDown, setDropDown] = useState(false); //modify display
   const { aboutRef, skillsRef, projectsRef, contactRef } =
     useContext(ScrollContext);
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollPosition = window.scrollY + window.innerHeight / 2;
-
-      // Get all sections
-      const sections = [
-        aboutRef.current,
-        skillsRef.current,
-        projectsRef.current,
-        contactRef.current,
-      ];
-
-      const currentSection = sections.find((section) => {
-        if (!section) return false;
-        const top = section.offsetTop - 235;
-        const height = section.offsetHeight + 120;
-        return scrollPosition >= top && scrollPosition < top + height;
-      });
-
-      if (currentSection) {
-        setActiveLink(currentSection.id);
-      } else {
-        setActiveLink("");
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    // Call once to set initial state
-    handleScroll();
-
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  useEffect(() => {}, []);
 
   const handleNavIconClick = (section) => {
     setActiveLink(section);

@@ -6,7 +6,7 @@ import { ScrollContext } from "../../App.jsx";
 function Skills() {
   const { skillsRef } = useContext(ScrollContext);
   return (
-    <section id="skills" ref={skillsRef} className="section-container">
+    <section ref={skillsRef} className="section-container">
       <h1 className="section-title">MY SKILLS</h1>
 
       {Object.entries(skills).map(([category, skillsArray], categoryIndex) => (

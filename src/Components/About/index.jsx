@@ -3,7 +3,7 @@ import { ScrollContext } from "../../App";
 function About() {
   const { aboutRef, projectsRef } = useContext(ScrollContext);
   return (
-    <section id="about" ref={aboutRef} className="section-container">
+    <section ref={aboutRef} className="section-container">
       <h1 className="section-title">ABOUT ME</h1>
       <div className="w-3/4">
         <p className="mb-5 text-left font-semibold">
@@ -29,7 +29,7 @@ function About() {
                 block: "start",
               });
             }}
-            className="cursor-pointer text-acc1 underline duration-150 hover:text-acc2"
+            className="cursor-pointer text-acc1 underline"
           >
             projects
           </span>{" "}
