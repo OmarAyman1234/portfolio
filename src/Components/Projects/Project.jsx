@@ -14,12 +14,17 @@ function Project(props) {
 
       <div className="mt-1 flex flex-wrap justify-center gap-1 border-b border-t border-gray-300 bg-gray-50 px-2 py-1">
         {props.includedSkills.map((skill, skillIndex) => (
-          <img
-            key={skillIndex}
-            className="w-6 duration-150 hover:scale-110"
-            src={skill.img}
-            alt={skill.name}
-          />
+          <div className="group relative">
+            <img
+              key={skillIndex}
+              className="w-6 duration-150 hover:scale-110"
+              src={skill.img}
+              alt={skill.name}
+            />
+            <div className="absolute top-7 hidden rounded bg-gray-800 p-0.5 text-sm text-gray-200 group-hover:block">
+              {skill.name}
+            </div>
+          </div>
         ))}
       </div>
 
