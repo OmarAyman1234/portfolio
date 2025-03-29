@@ -21,7 +21,7 @@ function Project(props) {
               src={skill.img}
               alt={skill.name}
             />
-            <div className="absolute top-7 hidden rounded bg-gray-800 p-0.5 text-sm text-gray-200 group-hover:block">
+            <div className="pointer-events-none absolute top-7 rounded bg-gray-800 p-0.5 text-sm text-gray-200 opacity-0 duration-150 group-hover:opacity-100">
               {skill.name}
             </div>
           </div>
