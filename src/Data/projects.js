@@ -1,6 +1,32 @@
 export const projects = {
   Featured: [
     {
+      previewImg: "/assets/images/todoList-preview.png",
+      name: "ToDoList",
+      description:
+        "A full-stack (MERN) to-do list with user authentication. It allows users to manage their tasks efficiently, securely hashes passwords using bcrypt, and more!",
+      includedSkills: [
+        {
+          name: "MongoDB",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
+        },
+        {
+          name: "Express.js",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
+        },
+        {
+          name: "React.js",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+        },
+        {
+          name: "Node.js",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
+        },
+      ],
+      sourceCode: "https://github.com/OmarAyman1234/todo-list",
+      liveDemo: "https://oa-todo.vercel.app",
+    },
+    {
       previewImg: "/assets/images/shopme-preview.png",
       name: "SHOPME",
       description:
@@ -19,24 +45,9 @@ export const projects = {
       sourceCode: "https://github.com/OmarAyman1234/SHOPME",
       liveDemo: "https://omarayman1234.github.io/SHOPME/",
     },
-    {
-      previewImg: "/assets/images/portfolio-preview.png",
-      name: "Portfolio",
-      description:
-        "My portfolio website that you are currently viewing, there is no need for a description 😄.",
-      includedSkills: [
-        {
-          name: "React",
-          img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
-        },
-        {
-          name: "TailwindCSS",
-          img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
-        },
-      ],
-      sourceCode: "https://github.com/OmarAyman1234/portfolio",
-      liveDemo: "",
-    },
+  ],
+
+  Other: [
     {
       previewImg: "/assets/images/maktabaHub-preview.png",
       name: "Maktaba Hub",
@@ -56,9 +67,6 @@ export const projects = {
       sourceCode: "https://github.com/OmarAyman1234/BookStore",
       liveDemo: "https://omarayman1234.github.io/BookStore/",
     },
-  ],
-
-  Other: [
     {
       previewImg: "/assets/images/cairoPhones-preview.png",
       name: "Cairo Phones",
@@ -94,12 +102,4 @@ export const projects = {
       liveDemo: "",
     },
   ],
-  // {
-  //   previewImg: "",
-  //   name: "",
-  //   description: "",
-  //   includedSkills: [{name: "", img: ""}],
-  //   sourceCode: "",
-  //   liveDemo: "",
-  // }
 };
