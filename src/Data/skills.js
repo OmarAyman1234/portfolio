@@ -26,18 +26,6 @@ export const skills = {
       borderColor: "rgb(56, 189, 248)",
     },
   ],
-  "Programming Languages": [
-    {
-      name: "C",
-      img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg",
-      borderColor: "#03599C",
-    },
-    {
-      name: "Java",
-      img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
-      borderColor: "#0074bd",
-    },
-  ],
 
   "Back End": [
     {
@@ -59,6 +47,19 @@ export const skills = {
       name: "SQL",
       img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg",
       borderColor: "#198ab3",
+    },
+  ],
+
+  "Programming Languages": [
+    {
+      name: "C",
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg",
+      borderColor: "#03599C",
+    },
+    {
+      name: "Java",
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
+      borderColor: "#0074bd",
     },
   ],
 
