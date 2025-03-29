@@ -41,6 +41,21 @@ export const skills = {
 
   "Back End": [
     {
+      name: "Node.js",
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
+      borderColor: "#3f873f",
+    },
+    {
+      name: "Express.js",
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
+      borderColor: "",
+    },
+    {
+      name: "MongoDB",
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
+      borderColor: "#57ae47",
+    },
+    {
       name: "SQL",
       img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg",
       borderColor: "#198ab3",
