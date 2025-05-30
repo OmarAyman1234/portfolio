@@ -1,12 +1,12 @@
 function Project(props) {
   return (
-    <div className="flex w-64 flex-col justify-between rounded-xl border border-gray-300 bg-gray-100 shadow-lg duration-150 hover:scale-[1.02] hover:shadow-xl">
+    <div className="flex w-72 flex-col justify-between rounded-xl border border-gray-300 bg-gray-100 shadow-lg duration-150 hover:scale-[1.02] hover:shadow-xl">
       <img
         className="h-32 w-full rounded-t-xl"
         src={props.previewImg}
         alt={props.name}
       />
-      <h3 className="px-3 pt-2 text-center text-lg font-semibold text-gray-900">
+      <h3 className="px-3 pt-2 text-center text-xl font-bold text-gray-900">
         {props.name}
       </h3>
 
@@ -15,7 +15,7 @@ function Project(props) {
           <div className="group relative">
             <img
               key={skillIndex}
-              className="w-6 duration-150 hover:scale-110"
+              className="w-7 duration-150 hover:scale-110"
               src={skill.img}
               alt={skill.name}
             />
@@ -27,9 +27,10 @@ function Project(props) {
       </div>
 
       <div className="flex flex-grow items-center">
-        <p className="px-3 py-2 text-center text-sm leading-snug text-gray-700">
-          {props.description}
-        </p>
+        <p
+          dangerouslySetInnerHTML={{ __html: props.description }}
+          className="px-3 py-2 text-center text-sm leading-snug text-gray-700"
+        ></p>
       </div>
 
       <div className="flex justify-evenly gap-2 px-3 pb-3">
