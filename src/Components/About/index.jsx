@@ -7,9 +7,9 @@ function About() {
       <h1 className="section-title">ABOUT ME</h1>
       <div className="w-3/4">
         <p className="mb-5 text-left font-semibold">
-          I am a web developer with <span>1+ year</span> of experience,
-          specializing in front-end development while building my back-end
-          expertise.
+          I am a web developer with <span className="font-bold">1+ year</span>{" "}
+          of experience. I started with front-end development, but I am now
+          focused on back-end development.
         </p>
         <p className="mb-5 text-left font-semibold">
           In 2022, my journey with web development started by learning the
