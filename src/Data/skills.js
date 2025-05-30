@@ -25,6 +25,11 @@ export const skills = {
       img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
       borderColor: "rgb(56, 189, 248)",
     },
+    {
+      name: "Bootstrap",
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg",
+      borderColor: "#7311f6",
+    },
   ],
 
   "Back End": [
@@ -44,9 +49,14 @@ export const skills = {
       borderColor: "#57ae47",
     },
     {
-      name: "SQL",
-      img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg",
-      borderColor: "#198ab3",
+      name: "PHP",
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg",
+      borderColor: "#777bb3",
+    },
+    {
+      name: "MySQL",
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg",
+      borderColor: "#00618a",
     },
   ],
 
@@ -54,6 +64,11 @@ export const skills = {
     {
       name: "C",
       img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg",
+      borderColor: "#03599C",
+    },
+    {
+      name: "C++",
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg",
       borderColor: "#03599C",
     },
     {
