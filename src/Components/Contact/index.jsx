@@ -1,8 +1,7 @@
 import { useContext } from "react";
 import { ScrollContext } from "../../App";
 
-import FormMessage from "./FormMessage";
-import OtherContactMethods from "./OtherContactMethods";
+import ContactMethods from "./ContactMethods";
 function Contact() {
   const { contactRef } = useContext(ScrollContext);
 
@@ -15,8 +14,7 @@ function Contact() {
         chat, feel free to reach out anytime!
       </p>
 
-      <FormMessage />
-      <OtherContactMethods />
+      <ContactMethods />
     </section>
   );
 }

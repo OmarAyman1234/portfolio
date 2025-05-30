@@ -1,10 +1,10 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareEnvelope } from "@fortawesome/free-solid-svg-icons";
 
-function OtherContactMethods() {
+function ContactMethods() {
   return (
     <>
-      <h2 className="section-h2 mt-8">Other Methods</h2>
+      <h2 className="section-h2 mt-8">Contact Methods</h2>
 
       <div className="flex w-8/12 flex-col gap-3 xsm:w-[330px]">
         {/* Email Button */}
@@ -47,4 +47,4 @@ function OtherContactMethods() {
     </>
   );
 }
-export default OtherContactMethods;
+export default ContactMethods;
