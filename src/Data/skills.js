@@ -90,4 +90,12 @@ export const skills = {
       borderColor: "#24292e",
     },
   ],
+
+  "System Design": [
+    {
+      name: "UML",
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unifiedmodelinglanguage/unifiedmodelinglanguage-original.svg",
+      borderColor: "#962444",
+    },
+  ],
 };
