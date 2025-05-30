@@ -1,5 +1,3 @@
-import React from "react";
-
 function Project(props) {
   return (
     <div className="flex w-64 flex-col justify-between rounded-xl border border-gray-300 bg-gray-100 shadow-lg duration-150 hover:scale-[1.02] hover:shadow-xl">
@@ -35,6 +33,18 @@ function Project(props) {
       </div>
 
       <div className="flex justify-evenly gap-2 px-3 pb-3">
+        {props.demo.length > 0 ? (
+          <a
+            href={props.demo}
+            target="_blank"
+            className="w-full scale-105 rounded-lg bg-acc1 px-2 py-1 text-center text-sm font-semibold text-white transition-all hover:bg-acc2 hover:shadow-md"
+          >
+            Demo
+          </a>
+        ) : (
+          ""
+        )}
+
         {props.sourceCode.length > 0 ? (
           <a
             href={props.sourceCode}
@@ -42,18 +52,6 @@ function Project(props) {
             className="w-full scale-105 rounded-lg bg-acc1 px-2 py-1 text-center text-sm font-semibold text-white transition-all hover:bg-acc2 hover:shadow-md"
           >
             Source Code
-          </a>
-        ) : (
-          ""
-        )}
-
-        {props.liveDemo.length > 0 ? (
-          <a
-            href={props.liveDemo}
-            target="_blank"
-            className="w-full scale-105 rounded-lg bg-acc1 px-2 py-1 text-center text-sm font-semibold text-white transition-all hover:bg-acc2 hover:shadow-md"
-          >
-            Live Demo
           </a>
         ) : (
           ""

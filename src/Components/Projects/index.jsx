@@ -28,7 +28,7 @@ function Projects() {
                     includedSkills={project.includedSkills}
                     description={project.description}
                     sourceCode={project.sourceCode}
-                    liveDemo={project.liveDemo}
+                    demo={project.demo}
                   />
                 ))}
               </div>

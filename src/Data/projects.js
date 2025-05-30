@@ -24,7 +24,7 @@ export const projects = {
         },
       ],
       sourceCode: "https://github.com/OmarAyman1234/todo-list",
-      liveDemo: "https://oa-todo.vercel.app",
+      demo: "https://oa-todo.vercel.app",
     },
     {
       previewImg: "/assets/images/shopme-preview.png",
@@ -43,7 +43,7 @@ export const projects = {
         },
       ],
       sourceCode: "https://github.com/OmarAyman1234/SHOPME",
-      liveDemo: "https://omarayman1234.github.io/SHOPME/",
+      demo: "https://omarayman1234.github.io/SHOPME/",
     },
   ],
 
@@ -65,7 +65,7 @@ export const projects = {
         },
       ],
       sourceCode: "https://github.com/OmarAyman1234/BookStore",
-      liveDemo: "https://omarayman1234.github.io/BookStore/",
+      demo: "https://omarayman1234.github.io/BookStore/",
     },
     {
       previewImg: "/assets/images/cairoPhones-preview.png",
@@ -84,7 +84,7 @@ export const projects = {
         },
       ],
       sourceCode: "https://github.com/OmarAyman1234/CairoPhones.github.io",
-      liveDemo: "https://omarayman1234.github.io/CairoPhones.github.io/",
+      demo: "https://omarayman1234.github.io/CairoPhones.github.io/",
     },
     {
       previewImg: "/assets/images/health-club-preview.png",
@@ -99,7 +99,7 @@ export const projects = {
       ],
       sourceCode:
         "https://github.com/OmarAyman1234/health-club-management-system",
-      liveDemo: "",
+      demo: "",
     },
   ],
 };
