@@ -60,7 +60,7 @@ export const skills = {
     },
   ],
 
-  ".NET Ecosystem": [
+  "Back End (.NET) ": [
     {
       name: "C#",
       img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg",

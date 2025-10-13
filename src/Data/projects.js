@@ -1,6 +1,58 @@
 export const projects = {
   Featured: [
     {
+      previewImg: "/assets/images/twitter-clone-preview.png",
+      name: "Twitter Clone",
+      description:
+        "A full-stack MERN application that replicates Twitter's core functionality. Implemented React Query for efficient API data fetching and integrated Cloudinary for seamless image upload, storage, and delivery. Features include user authentication, real-time posts, and responsive design.",
+      includedSkills: [
+        {
+          name: "React.js",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+        },
+        {
+          name: "Node.js",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
+        },
+        {
+          name: "Express.js",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
+        },
+        {
+          name: "MongoDB",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
+        },
+      ],
+      sourceCode: "https://github.com/OmarAyman1234/TwitterClone",
+      demo: "https://drive.google.com/file/d/1QcvFscTab0VVSNFfTaWV5mxY1ES9ZeXL/view?usp=sharing",
+    },
+    {
+      previewImg: "/assets/images/todoList-preview.png",
+      name: "ToDoList",
+      description:
+        "A full-stack (MERN) to-do list with user authentication. It allows users to manage their tasks efficiently, securely hashes passwords using bcrypt, and more!",
+      includedSkills: [
+        {
+          name: "React.js",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+        },
+        {
+          name: "Node.js",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
+        },
+        {
+          name: "Express.js",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
+        },
+        {
+          name: "MongoDB",
+          img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
+        },
+      ],
+      sourceCode: "https://github.com/OmarAyman1234/todo-list",
+      demo: "https://oa-todo.vercel.app",
+    },
+    {
       previewImg: "/assets/images/multimedia-preview.png",
       name: "Multimedia",
       description:
@@ -27,32 +79,6 @@ export const projects = {
       sourceCode: "https://github.com/OmarAyman1234/multimedia",
       demo: "https://drive.google.com/file/d/17NpKZ1NQZ_7g1JkxJmt3AbyTmRltvv5v/view",
     },
-    {
-      previewImg: "/assets/images/todoList-preview.png",
-      name: "ToDoList",
-      description:
-        "A full-stack (MERN) to-do list with user authentication. It allows users to manage their tasks efficiently, securely hashes passwords using bcrypt, and more!",
-      includedSkills: [
-        {
-          name: "MongoDB",
-          img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
-        },
-        {
-          name: "Express.js",
-          img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
-        },
-        {
-          name: "React.js",
-          img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
-        },
-        {
-          name: "Node.js",
-          img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
-        },
-      ],
-      sourceCode: "https://github.com/OmarAyman1234/todo-list",
-      demo: "https://oa-todo.vercel.app",
-    },
   ],
 
   Other: [
@@ -75,25 +101,25 @@ export const projects = {
       sourceCode: "https://github.com/OmarAyman1234/SHOPME",
       demo: "https://omarayman1234.github.io/SHOPME/",
     },
-    {
-      previewImg: "/assets/images/maktabaHub-preview.png",
-      name: "Maktaba Hub",
-      description:
-        "An Islamic library for borrowing and reserving books, I made the data file, and worked on rendering book details and borrow/reserve pages using the data file and search params.",
-      includedSkills: [
-        {
-          name: "HTML",
-          img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
-        },
-        { name: "CSS", img: "/assets/icons/Official_CSS_Logo.svg" },
-        {
-          name: "JavaScript",
-          img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
-        },
-      ],
-      sourceCode: "https://github.com/OmarAyman1234/BookStore",
-      demo: "https://omarayman1234.github.io/BookStore/",
-    },
+    // {
+    //   previewImg: "/assets/images/maktabaHub-preview.png",
+    //   name: "Maktaba Hub",
+    //   description:
+    //     "An Islamic library for borrowing and reserving books, I made the data file, and worked on rendering book details and borrow/reserve pages using the data file and search params.",
+    //   includedSkills: [
+    //     {
+    //       name: "HTML",
+    //       img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
+    //     },
+    //     { name: "CSS", img: "/assets/icons/Official_CSS_Logo.svg" },
+    //     {
+    //       name: "JavaScript",
+    //       img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+    //     },
+    //   ],
+    //   sourceCode: "https://github.com/OmarAyman1234/BookStore",
+    //   demo: "https://omarayman1234.github.io/BookStore/",
+    // },
     // {
     //   previewImg: "/assets/images/cairoPhones-preview.png",
     //   name: "Cairo Phones",
@@ -117,7 +143,7 @@ export const projects = {
       previewImg: "/assets/images/health-club-preview.png",
       name: "Health Club System",
       description:
-        "A Gym system built using Java, I worked on the text files structure, notification system, billing system, and some functions in the FileHandler.java file",
+        "A file-based Gym system built using Java, I worked on the text files structure, notification system, billing system, and some functions in the FileHandler.java file",
       includedSkills: [
         {
           name: "Java",
