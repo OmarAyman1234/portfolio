@@ -4,6 +4,7 @@ import About from "./Components/About";
 import Header from "./Components/Header";
 import Hero from "./Components/Hero";
 import Projects from "./Components/Projects";
+import Experience from "./Components/Experience";
 import Skills from "./Components/Skills";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
@@ -13,12 +14,14 @@ export const ScrollContext = createContext({});
 function App() {
   const aboutRef = useRef(null);
   const skillsRef = useRef(null);
+  const experienceRef = useRef(null);
   const projectsRef = useRef(null);
   const contactRef = useRef(null);
 
   const ScrollValues = {
     aboutRef,
     skillsRef,
+    experienceRef,
     projectsRef,
     contactRef,
   };
@@ -28,8 +31,9 @@ function App() {
         <Header />
         <Hero />
         <About />
-        <Skills />
+        <Experience />
         <Projects />
+        <Skills />
         <Contact />
       </ScrollContext.Provider>
       <Footer />

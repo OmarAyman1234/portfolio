@@ -60,6 +60,55 @@ export const skills = {
     },
   ],
 
+  ".NET Ecosystem": [
+    {
+      name: "C#",
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg",
+      borderColor: "#9b4f97",
+    },
+    {
+      name: ".NET Core",
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg",
+      borderColor: "#512bd4",
+    },
+    {
+      name: "Web API",
+      img: "data:image/svg+xml;utf8,\
+<svg xmlns='http://www.w3.org/2000/svg' width='128' height='128' viewBox='0 0 128 128'>\
+  <rect rx='16' ry='16' width='128' height='128' fill='%23512bd4'/>\
+  <text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='18' fill='white'>Web API</text>\
+</svg>",
+      borderColor: "#512bd4",
+    },
+    {
+      name: "EF Core",
+      img: "data:image/svg+xml;utf8,\
+<svg xmlns='http://www.w3.org/2000/svg' width='128' height='128' viewBox='0 0 128 128'>\
+  <rect rx='16' ry='16' width='128' height='128' fill='%23385a7c'/>\
+  <text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='22' fill='white'>EF</text>\
+</svg>",
+      borderColor: "#385a7c",
+    },
+    {
+      name: "SignalR",
+      img: "data:image/svg+xml;utf8,\
+<svg xmlns='http://www.w3.org/2000/svg' width='128' height='128' viewBox='0 0 128 128'>\
+  <rect rx='16' ry='16' width='128' height='128' fill='%2300a3a3'/>\
+  <text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='20' fill='white'>SignalR</text>\
+</svg>",
+      borderColor: "#00a3a3",
+    },
+    {
+      name: "WinForms",
+      img: "data:image/svg+xml;utf8,\
+<svg xmlns='http://www.w3.org/2000/svg' width='128' height='128' viewBox='0 0 128 128'>\
+  <rect rx='16' ry='16' width='128' height='128' fill='%235c6bc0'/>\
+  <text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='18' fill='white'>WinForms</text>\
+</svg>",
+      borderColor: "#5c6bc0",
+    },
+  ],
+
   "Programming Languages": [
     {
       name: "C",
@@ -74,6 +123,11 @@ export const skills = {
     {
       name: "Java",
       img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
+      borderColor: "#0074bd",
+    },
+    {
+      name: "Python",
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
       borderColor: "#0074bd",
     },
   ],
@@ -98,4 +152,24 @@ export const skills = {
       borderColor: "#962444",
     },
   ],
+
+
+
+  // "DevOps & Messaging": [
+  //   {
+  //     name: "Docker",
+  //     img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
+  //     borderColor: "#0db7ed",
+  //   },
+  //   {
+  //     name: "RabbitMQ",
+  //     img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rabbitmq/rabbitmq-original.svg",
+  //     borderColor: "#f60",
+  //   },
+  //   {
+  //     name: "Redis",
+  //     img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg",
+  //     borderColor: "#d82c20",
+  //   },
+  // ],
 };

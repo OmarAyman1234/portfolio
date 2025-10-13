@@ -7,7 +7,7 @@ function Header() {
   const [activeLink, setActiveLink] = useState("");
   const [isVisible, setIsVisible] = useState(false); //modify height and opacity
   const [dropDown, setDropDown] = useState(false); //modify display
-  const { aboutRef, skillsRef, projectsRef, contactRef } =
+  const { aboutRef, skillsRef, experienceRef, projectsRef, contactRef } =
     useContext(ScrollContext);
   useEffect(() => {
     const handleScroll = () => {
@@ -16,6 +16,7 @@ function Header() {
       const sections = [
         aboutRef.current,
         skillsRef.current,
+        experienceRef.current,
         projectsRef.current,
         contactRef.current,
       ];
@@ -92,16 +93,16 @@ function Header() {
           About
         </button>
         <button
-          className={`nav-link ${activeLink === "skills" ? "active text-white" : ""}`}
+          className={`nav-link ${activeLink === "experience" ? "active text-white" : ""}`}
           onClick={() => {
-            skillsRef.current?.scrollIntoView({
+            experienceRef.current?.scrollIntoView({
               behavior: "smooth",
               block: "start",
             });
-            handleNavIconClick("skills");
+            handleNavIconClick("experience");
           }}
         >
-          Skills
+          Experience
         </button>
         <button
           className={`nav-link ${activeLink === "projects" ? "active text-white" : ""}`}
@@ -115,6 +116,20 @@ function Header() {
         >
           Projects
         </button>
+        <button
+          className={`nav-link ${activeLink === "skills" ? "active text-white" : ""}`}
+          onClick={() => {
+            skillsRef.current?.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+            handleNavIconClick("skills");
+          }}
+        >
+          Skills
+        </button>
+
+
         <button
           className={`nav-link ${activeLink === "contact" ? "active text-white" : ""}`}
           onClick={() => {

@@ -9,7 +9,7 @@ function Hero() {
           Hello, I am <span className="animate-colorText">Omar Ayman</span>!
         </h1>
         <p className="text-center text-2xl text-secondary lg:text-3xl">
-          A passionate web developer.
+          A passionate Software Engineer.
         </p>
       </div>
       <button
