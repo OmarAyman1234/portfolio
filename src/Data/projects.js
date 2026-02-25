@@ -1,31 +1,31 @@
 export const projects = {
   Featured: [
-    {
-      previewImg: "/assets/images/twitter-clone-preview.png",
-      name: "Twitter Clone",
-      description:
-        "A full-stack MERN application that replicates Twitter's core functionality. Implemented React Query for efficient API data fetching and integrated Cloudinary for seamless image upload, storage, and delivery. Features include user authentication, real-time posts, and responsive design.",
-      includedSkills: [
-        {
-          name: "React.js",
-          img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
-        },
-        {
-          name: "Node.js",
-          img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
-        },
-        {
-          name: "Express.js",
-          img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
-        },
-        {
-          name: "MongoDB",
-          img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
-        },
-      ],
-      sourceCode: "https://github.com/OmarAyman1234/TwitterClone",
-      demo: "https://drive.google.com/file/d/1QcvFscTab0VVSNFfTaWV5mxY1ES9ZeXL/view?usp=sharing",
-    },
+    // {
+    //   previewImg: "/assets/images/twitter-clone-preview.png",
+    //   name: "Twitter Clone",
+    //   description:
+    //     "A full-stack MERN application that replicates Twitter's core functionality. Implemented React Query for efficient API data fetching and integrated Cloudinary for seamless image upload, storage, and delivery. Features include user authentication, real-time posts, and responsive design.",
+    //   includedSkills: [
+    //     {
+    //       name: "React.js",
+    //       img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+    //     },
+    //     {
+    //       name: "Node.js",
+    //       img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
+    //     },
+    //     {
+    //       name: "Express.js",
+    //       img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
+    //     },
+    //     {
+    //       name: "MongoDB",
+    //       img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
+    //     },
+    //   ],
+    //   sourceCode: "https://github.com/OmarAyman1234/TwitterClone",
+    //   demo: "https://drive.google.com/file/d/1QcvFscTab0VVSNFfTaWV5mxY1ES9ZeXL/view?usp=sharing",
+    // },
     {
       previewImg: "/assets/images/todoList-preview.png",
       name: "ToDoList",

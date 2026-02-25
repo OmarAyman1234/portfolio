@@ -1,14 +1,24 @@
 export const skills = {
   "Front End": [
+    // {
+    //   name: "HTML",
+    //   img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
+    //   borderColor: "#e34c26",
+    // },
+    // {
+    //   name: "CSS",
+    //   img: "/assets/icons/Official_CSS_Logo.svg",
+    //   borderColor: "#663399",
+    // },
     {
-      name: "HTML",
-      img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
-      borderColor: "#e34c26",
+      name: "React.js",
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+      borderColor: "#61dbfb",
     },
     {
-      name: "CSS",
-      img: "/assets/icons/Official_CSS_Logo.svg",
-      borderColor: "#663399",
+      name: "TypeScript",
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+      borderColor: "#007acc",
     },
     {
       name: "JavaScript",
@@ -16,9 +26,9 @@ export const skills = {
       borderColor: "#F0DB4F",
     },
     {
-      name: "React.js",
-      img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
-      borderColor: "#61dbfb",
+      name: "MaterialUI",
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-plain.svg",
+      borderColor: "#1fa6ca"
     },
     {
       name: "TailwindCSS",
@@ -58,67 +68,62 @@ export const skills = {
       img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg",
       borderColor: "#00618a",
     },
+    {
+      name: ".NET Core",
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg",
+      borderColor: "#512bd4",
+    },
   ],
 
-  "Back End (.NET) ": [
+//   "Back End (.NET) ": [
+//     {
+//       name: "Web API",
+//       img: "data:image/svg+xml;utf8,\
+// <svg xmlns='http://www.w3.org/2000/svg' width='128' height='128' viewBox='0 0 128 128'>\
+//   <rect rx='16' ry='16' width='128' height='128' fill='%23512bd4'/>\
+//   <text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='18' fill='white'>Web API</text>\
+// </svg>",
+//       borderColor: "#512bd4",
+//     },
+//     {
+//       name: "EF Core",
+//       img: "data:image/svg+xml;utf8,\
+// <svg xmlns='http://www.w3.org/2000/svg' width='128' height='128' viewBox='0 0 128 128'>\
+//   <rect rx='16' ry='16' width='128' height='128' fill='%23385a7c'/>\
+//   <text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='22' fill='white'>EF</text>\
+// </svg>",
+//       borderColor: "#385a7c",
+//     },
+//     {
+//       name: "SignalR",
+//       img: "data:image/svg+xml;utf8,\
+// <svg xmlns='http://www.w3.org/2000/svg' width='128' height='128' viewBox='0 0 128 128'>\
+//   <rect rx='16' ry='16' width='128' height='128' fill='%2300a3a3'/>\
+//   <text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='20' fill='white'>SignalR</text>\
+// </svg>",
+//       borderColor: "#00a3a3",
+//     },
+//     {
+//       name: "WinForms",
+//       img: "data:image/svg+xml;utf8,\
+// <svg xmlns='http://www.w3.org/2000/svg' width='128' height='128' viewBox='0 0 128 128'>\
+//   <rect rx='16' ry='16' width='128' height='128' fill='%235c6bc0'/>\
+//   <text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='18' fill='white'>WinForms</text>\
+// </svg>",
+//       borderColor: "#5c6bc0",
+//     },
+//   ],
+
+  "Programming Languages": [
     {
       name: "C#",
       img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg",
       borderColor: "#9b4f97",
     },
     {
-      name: ".NET Core",
-      img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg",
-      borderColor: "#512bd4",
-    },
-    {
-      name: "Web API",
-      img: "data:image/svg+xml;utf8,\
-<svg xmlns='http://www.w3.org/2000/svg' width='128' height='128' viewBox='0 0 128 128'>\
-  <rect rx='16' ry='16' width='128' height='128' fill='%23512bd4'/>\
-  <text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='18' fill='white'>Web API</text>\
-</svg>",
-      borderColor: "#512bd4",
-    },
-    {
-      name: "EF Core",
-      img: "data:image/svg+xml;utf8,\
-<svg xmlns='http://www.w3.org/2000/svg' width='128' height='128' viewBox='0 0 128 128'>\
-  <rect rx='16' ry='16' width='128' height='128' fill='%23385a7c'/>\
-  <text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='22' fill='white'>EF</text>\
-</svg>",
-      borderColor: "#385a7c",
-    },
-    {
-      name: "SignalR",
-      img: "data:image/svg+xml;utf8,\
-<svg xmlns='http://www.w3.org/2000/svg' width='128' height='128' viewBox='0 0 128 128'>\
-  <rect rx='16' ry='16' width='128' height='128' fill='%2300a3a3'/>\
-  <text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='20' fill='white'>SignalR</text>\
-</svg>",
-      borderColor: "#00a3a3",
-    },
-    {
-      name: "WinForms",
-      img: "data:image/svg+xml;utf8,\
-<svg xmlns='http://www.w3.org/2000/svg' width='128' height='128' viewBox='0 0 128 128'>\
-  <rect rx='16' ry='16' width='128' height='128' fill='%235c6bc0'/>\
-  <text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='18' fill='white'>WinForms</text>\
-</svg>",
-      borderColor: "#5c6bc0",
-    },
-  ],
-
-  "Programming Languages": [
-    {
-      name: "C",
-      img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg",
-      borderColor: "#03599C",
-    },
-    {
-      name: "C++",
-      img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg",
-      borderColor: "#03599C",
+      name: "Python",
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
+      borderColor: "#0074bd",
     },
     {
       name: "Java",
@@ -126,13 +131,18 @@ export const skills = {
       borderColor: "#0074bd",
     },
     {
-      name: "Python",
-      img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
-      borderColor: "#0074bd",
+      name: "C++",
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg",
+      borderColor: "#03599C",
+    },
+    {
+      name: "C",
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg",
+      borderColor: "#03599C",
     },
   ],
 
-  "Version Control": [
+  "Tools & DevOps": [
     {
       name: "Git",
       img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-plain.svg",
@@ -143,6 +153,21 @@ export const skills = {
       img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg",
       borderColor: "#24292e",
     },
+    {
+      name: "Docker",
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-plain.svg",
+      borderColor: "#019bc6"
+    },
+    {
+      name: "RabbitMQ",
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rabbitmq/rabbitmq-original.svg",
+      borderColor: "#ff6600"
+    },
+    {
+      name: "Redis",
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg",
+      borderColor: "#d82c20"
+    }
   ],
 
   "System Design": [

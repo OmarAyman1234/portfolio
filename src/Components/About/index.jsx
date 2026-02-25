@@ -7,7 +7,8 @@ function About() {
       <h1 className="section-title">ABOUT ME</h1>
       <div className="w-3/4">
         <p className="mb-5 text-left font-semibold">
-          Software engineer with over one year of experience. Strong academic foundation in Data Structures, Algorithms, and Object-Oriented Programming (OOP). Hands-on experience building secure full-stack applications with modern technologies.        </p>
+          Software engineer specialized in MERN stack. Strong academic foundation in Data Structures, Algorithms, and Object-Oriented Programming (OOP). Hands-on experience building secure full-stack applications with modern technologies.
+        </p>
       </div>
     </section>
   );
